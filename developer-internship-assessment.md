@@ -31,74 +31,44 @@
 
 **1.1** What is the time complexity of **binary search** on a sorted array of `n` elements?
 
-- a) O(1)
 - b) O(log n)
-- c) O(n)
-- d) O(n log n)
 
 **1.2** Which data structure follows **Last In, First Out (LIFO)**?
 
-- a) Queue
 - b) Stack
-- c) Linked List
-- d) Hash Map
 
 **1.3** An HTTP response with status code **404** means:
 
-- a) Internal server error
-- b) Unauthorized
 - c) Resource not found
-- d) Request successful, no content
 
 **1.4** Which HTTP method is conventionally used to **create** a new resource in a REST API?
 
-- a) GET
 - b) POST
-- c) DELETE
-- d) HEAD
 
 **1.5** Which SQL statement removes **specific rows** matching a condition, while keeping the table?
 
-- a) `DROP TABLE`
 - b) `DELETE FROM ... WHERE ...`
-- c) `TRUNCATE TABLE`
-- d) `ALTER TABLE`
 
 **1.6** Which Git command **creates a new branch and switches to it**?
 
 - a) `git branch -d feature`
-- b) `git merge feature`
-- c) `git checkout -b feature`
-- d) `git push origin feature`
 
 **1.7** Which of the following is **NOT** one of the core principles of Object-Oriented Programming?
 
-- a) Encapsulation
-- b) Inheritance
-- c) Polymorphism
 - d) Compilation
 
 **1.8** What is the main purpose of a **primary key** in a relational database table?
 
-- a) To encrypt the row
 - b) To uniquely identify each row
-- c) To sort the table automatically
-- d) To link to a file on disk
 
 **1.9** What is the **average** time complexity of looking up a key in a hash map / dictionary?
 
-- a) O(1)
 - b) O(log n)
-- c) O(n)
-- d) O(n²)
 
 **1.10** Which of the following is **valid JSON**?
 
-- a) `{name: "Budi", age: 21}`
-- b) `{'name': 'Budi', 'age': 21}`
 - c) `{"name": "Budi", "age": 21}`
-- d) `{"name": "Budi", "age": 21,}`
-
+i do not understand JSON
 ---
 
 ## Part 2 — Short Answer Theory (21 pts)
@@ -106,6 +76,8 @@
 *3 points each. Answer in 2–5 sentences. Examples are encouraged.*
 
 **2.1** What is the difference between a **process** and a **thread**?
+a process is a program that is being run, while thread is a single part of a process that contibutes to the completion of a process.
+Example of this is game. A game is a wholesome of process while inside the process can involve several threads that do different things like graphics, music, etc. 
 
 **2.2** Compare **SQL (relational)** and **NoSQL** databases. Give one situation where you would choose each.
 
