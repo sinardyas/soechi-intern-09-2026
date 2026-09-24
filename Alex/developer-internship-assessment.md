@@ -206,6 +206,7 @@ Input:  "  the ship   sails at dawn "
 Output: "dawn at sails ship the"
 ```
 
+
 ### 4.2 — Balanced Brackets
 
 Write a function that returns `true` if a string's brackets `()`, `[]`, `{}` are **balanced and correctly nested**, otherwise `false`. Other characters are ignored.
